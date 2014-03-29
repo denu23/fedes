@@ -1,0 +1,18 @@
+Search results.doc
+pom.xml
+target/classes/com/endava/fedes/FedesServlet.class
+target/fedes.war
+target/fedes/WEB-INF/classes/com/endava/fedes/FedesServlet.class
+target/fedes/WEB-INF/results.jsp
+target/fedes/WEB-INF/web.xml
+target/fedes/index.jsp
+target/maven-archiver/pom.properties
+target/tomcat/conf/logging.properties
+target/tomcat/conf/tomcat-users.xml
+target/tomcat/conf/web.xml
+target/tomcat/logs/access_log.2014-03-29
+target/tomcat/work/Tomcat/localhost/fedes/SESSIONS.ser
+target/tomcat/work/Tomcat/localhost/fedes/org/apache/jsp/WEB_002dINF/results_jsp.class
+target/tomcat/work/Tomcat/localhost/fedes/org/apache/jsp/WEB_002dINF/results_jsp.java
+target/tomcat/work/Tomcat/localhost/fedes/org/apache/jsp/index_jsp.class
+target/tomcat/work/Tomcat/localhost/fedes/org/apache/jsp/index_jsp.java
