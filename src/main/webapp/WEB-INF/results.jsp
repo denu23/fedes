@@ -33,6 +33,22 @@
 				<li>E</li>
 			</ul>
 		</div>
+		
+		<script language="javascript">
+
+			function showPoster()
+			{
+				var poster = document.getElementById('poster');
+
+				if(poster != null)
+				{
+					if(poster.style.display== "block")
+						poster.style.display="none";
+					else
+						poster.style.display="block";
+				}
+			}
+		</script>
 	
 	<%
 		java.util.HashMap <String,Show>test = (java.util.HashMap <String,Show>)request.getAttribute("results");
@@ -46,7 +62,8 @@
 				lista += "<li><a href='#'>Actors: " + value.actors.substring(1, value.actors.length() - 1) + "</a></li>";
 				lista += "<li><a href='#'>Plot: " + value.plot + "</a></li>";
 				lista += "<li><a href='#'>Country: " + value.country + "</a></li>";
-				lista += "<li><a href=" + value.poster + ">Poster:</a></li>";
+				//lista += "<li><a href=" + value.poster + ">Poster:</a></li>";
+				lista+= "<li><a href='#' onclick='showPoster();'>Poster</a><img id='poster' src='"+value.poster+"' alt='poster' style='display:none;'/></li>";
 				lista += "<li><a href='#'>Status: " + value.status + "</a></li>";
 				lista += "<li><a href='" + value.link + "'>Imdb Rating: " + value.imdbRating + "</a></li>";
 				lista += "<li><a href='#'>Airday: " + value.airday + "</a></li>";
