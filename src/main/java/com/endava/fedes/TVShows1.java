@@ -1,13 +1,29 @@
 package com.endava.fedes;
 
+import java.util.List;
 import java.util.ArrayList;
 
-class Actors {
+/*class Name {
+	String name;
+}*/
+class Actor{
 	public String name;
+	
+	public String toString() {
+		if(name != null)
+		return name;
+		else return "";
+	}
 }
 class People {
-	public ArrayList<Actors> actors;
+	public List<Actor> actors;
+	
 }
+
+/*class People {
+	public Actors actors;
+}*/
+
 class Episodes {
 	public String plays;
 	public String season;
@@ -16,7 +32,7 @@ class Episodes {
 	public String url;
 }
 
-class Content {
+public class TVShows1 {
 	public String title;
 	public String year;
 	public String url;
@@ -25,16 +41,19 @@ class Content {
 	public String status;
 	public String network;
 	public String poster;
-	public String genres;
-	public ArrayList<People> people;
+	public List<String> genres;
+	public People people;
 	public String air_day;
 	public String air_time;
 	public String imdb_id;
 	public String tvrage_id;
-	public ArrayList<Episodes> top_episodes;
+	public List<Episodes> top_episodes;
+	
+	public String toString() {
+		return "\n\nServer1\n" + title;
+	}
 }
 
-public class TVShows1 {
-	public int no_entries;
-	public Content[] content;
-}
+
+	
+

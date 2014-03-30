@@ -1,0 +1,26 @@
+#surefire
+#Sun Mar 30 07:41:17 EEST 2014
+testClassesDirectory=/home/emma/Desktop/Anul 2/Sem2/BESTEM/BESTEM-Endava/fedes/target/test-classes
+classPathUrl.4=/home/emma/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar
+forkMode=once
+classPathUrl.3=/home/emma/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar
+classPathUrl.2=/home/emma/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar
+useManifestOnlyJar=true
+classPathUrl.1=/home/emma/Desktop/Anul 2/Sem2/BESTEM/BESTEM-Endava/fedes/target/classes
+reportsDirectory=/home/emma/Desktop/Anul 2/Sem2/BESTEM/BESTEM-Endava/fedes/target/surefire-reports
+classPathUrl.0=/home/emma/Desktop/Anul 2/Sem2/BESTEM/BESTEM-Endava/fedes/target/test-classes
+providerConfiguration=org.apache.maven.surefire.junit.JUnit3Provider
+testSuiteDefinitionTestSourceDirectory=/home/emma/Desktop/Anul 2/Sem2/BESTEM/BESTEM-Endava/fedes/src/test/java
+surefireClassPathUrl.1=/home/emma/.m2/repository/org/apache/maven/surefire/surefire-api/2.10/surefire-api-2.10.jar
+surefireClassPathUrl.0=/home/emma/.m2/repository/org/apache/maven/surefire/surefire-junit3/2.10/surefire-junit3-2.10.jar
+runOrder=filesystem
+useSystemClassLoader=true
+excludes0=**/*$*
+isTrimStackTrace=true
+enableAssertions=true
+includes2=**/*TestCase.java
+failIfNoTests=false
+includes1=**/*Test.java
+includes0=**/Test*.java
+childDelegation=false
+classPathUrl.5=/home/emma/.m2/repository/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar
